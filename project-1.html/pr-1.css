@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    min-height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 100%, rgba(99,136,99,1) 100%, rgba(0,212,255,1) 100%);
+} */
+}
+.box{
+    width: 800px;
+    
+    background-color: #E5E5FD;
+    ;
+    border: 10px solid rgb(26, 11, 192);
+    display: flex;
+    flex-direction: column;
+    gap: 86px;align-items: center;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    
+
+
+    
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+ 
+    width: 75%;
+    gap: 20px;
+}
+ h1{
+    font-size: 3rem;
+    font-weight: bold;
+ 
+
+}
+.content{
+   
+    display: flex;
+    flex-direction: row;
+   
+    align-items: end;
+    
+    justify-content: space-evenly;
+    position: relative;
+
+    
+ 
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    
+}
+.name {
+    
+    font-size: 1.5rem;
+    font-size: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 25%;
+    width: 278px;
+    justify-content: flex-end;
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+ img{
+height: 320px;
+width: 290px;
+}
+.image{
+    height: 300px;
+}
+.summry{
+    font-size: 1rem;
+    text-align: justify;
+
+}
+.content3{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+ 
+    width: 75%;
+    gap: 20px;
+}
+footer p{
+    text-align: end;
+
+}
+@media (max-width:589px) {
+    .content{
+       gap: 20px;
+    }
+    
+} 
+h3{
+    font-weight: bold;
+    
+}
+
+
